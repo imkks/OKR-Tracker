@@ -13,7 +13,9 @@ const ObjectiveCard = ({ objective, onQuickLog, onRefresh }) => {
   const [newKRTitle, setNewKRTitle] = useState('');
   const [newKRTarget, setNewKRTarget] = useState('');
   const [krFilter, setKrFilter] = useState('all');
+ 
 
+  
   if (!objective) return null;
 
   // Safe access to arrays
